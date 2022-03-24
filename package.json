@@ -1,0 +1,20 @@
+{
+  "name": "shine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o assets/css/tailwind.css",
+    "build:postcss": "postcss src/style.css -o assets/css/tailwind.css",
+    "watch": "watch 'npm run build:postcss'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss-cli": "^9.0.1",
+    "tailwindcss": "^2.2.16",
+    "watch": "^0.13.0"
+  }
+}
