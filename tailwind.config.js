@@ -32,9 +32,9 @@ module.exports = {
       yellow: colors.amber,
       blue: colors.blue,
       orange: {
-        light: 'rgba(246, 173, 85, 1)',
+        light: 'rgb(239 68 68)',
         DEFAULT: '#ff49db',
-        dark: 'rgba(221, 107, 32, 1)',
+        dark: 'rgb(185 28 28)',
       }
     }
   },

@@ -50,7 +50,7 @@
 
     // for menu scroll
 
-    if(document.location.href === "https://turborepairs.co.uk/") {
+    if(document.location.href === "https://nismomotors.co.uk/") {
         var pageLink = document.querySelectorAll('.page-scroll');
         pageLink.forEach(elem => {
             elem.addEventListener('click', e => {

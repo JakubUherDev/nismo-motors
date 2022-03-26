@@ -23,10 +23,10 @@ p {
   @apply mx-auto px-5;
 }
 .btn {
-  @apply text-white bg-yellow-600 px-10 py-3 rounded-full;
+  @apply text-white bg-red-500 px-10 py-3 rounded-full;
 }
 .btn:hover {
-  @apply bg-white text-yellow-600 border-solid border border-orange-dark;
+  @apply bg-white text-yellow-600 border-solid border border-red-500;
 }
 .sticky {
   @apply fixed bg-white shadow;
@@ -53,9 +53,11 @@ p {
 }
 .page-scroll {
   @apply block px-5 py-2 uppercase duration-300;
+
 }
 .page-scroll.active,
 .page-scroll:hover {
+  color:  rgb(185 28 28);
   @apply text-yellow-600;
 }
 .section-heading-dark {
